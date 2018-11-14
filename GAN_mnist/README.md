@@ -2,6 +2,8 @@
 
 *This foler contains the code and data of using GAN as a generative model to generate hand-written digits.*
 
+*(The major part of the code is in GAN_mnist.py)*
+
 **The network architecture of this GAN is quite simple:**
 
 - The generator consists of 2 fully-connected layers with Leaky ReLU and tanh as activation functions.
