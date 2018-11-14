@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GAN_mnist.py	../GAN_mnist.py	1;"	kind:file	line:1
+_	../GAN_mnist.py	/^            _ = sess.run(d_train_opt, feed_dict={input_real: batch_images, input_z: batch_z})$/;"	kind:variable	line:256
+_	../GAN_mnist.py	/^            _ = sess.run(g_train_opt, feed_dict={input_z: batch_z})$/;"	kind:variable	line:257
+_	../GAN_mnist.py	/^_ = view_samples(-1, samples)$/;"	kind:variable	line:325
+alpha	../GAN_mnist.py	/^alpha = 0.01$/;"	kind:variable	line:151
+batch	../GAN_mnist.py	/^            batch = mnist.train.next_batch(batch_size)$/;"	kind:variable	line:246
+batch_images	../GAN_mnist.py	/^            batch_images = batch[0].reshape((batch_size, 784))$/;"	kind:variable	line:249
+batch_images	../GAN_mnist.py	/^            batch_images = batch_images*2 - 1$/;"	kind:variable	line:250
+batch_size	../GAN_mnist.py	/^batch_size = 100$/;"	kind:variable	line:237
+batch_z	../GAN_mnist.py	/^            batch_z = np.random.uniform(-1, 1, size=(batch_size, z_size))$/;"	kind:variable	line:253
+d_hidden_size	../GAN_mnist.py	/^d_hidden_size = 128$/;"	kind:variable	line:149
+d_loss	../GAN_mnist.py	/^d_loss = $/;"	kind:variable	line:204
+d_loss_fake	../GAN_mnist.py	/^d_loss_fake = $/;"	kind:variable	line:202
+d_loss_real	../GAN_mnist.py	/^d_loss_real = $/;"	kind:variable	line:200
+d_train_opt	../GAN_mnist.py	/^d_train_opt = $/;"	kind:variable	line:230
+d_vars	../GAN_mnist.py	/^d_vars = $/;"	kind:variable	line:228
+discriminator	../GAN_mnist.py	/^def discriminator(x, n_units=128, reuse=False, alpha=0.01):$/;"	kind:function	line:114
+epochs	../GAN_mnist.py	/^epochs = 100$/;"	kind:variable	line:238
+feed_dict	../GAN_mnist.py	/^                       feed_dict={input_z: sample_z})$/;"	kind:variable	line:273
+feed_dict	../GAN_mnist.py	/^                   feed_dict={input_z: sample_z})$/;"	kind:variable	line:354
+g_hidden_size	../GAN_mnist.py	/^g_hidden_size = 128$/;"	kind:variable	line:148
+g_loss	../GAN_mnist.py	/^g_loss = $/;"	kind:variable	line:206
+g_model	../GAN_mnist.py	/^g_model = $/;"	kind:variable	line:174
+g_train_opt	../GAN_mnist.py	/^g_train_opt = $/;"	kind:variable	line:231
+g_vars	../GAN_mnist.py	/^g_vars = $/;"	kind:variable	line:227
+gen_samples	../GAN_mnist.py	/^        gen_samples = sess.run($/;"	kind:variable	line:271
+gen_samples	../GAN_mnist.py	/^    gen_samples = sess.run($/;"	kind:variable	line:352
+generator	../GAN_mnist.py	/^def generator(z, out_dim, n_units=128, reuse=False,  alpha=0.01):$/;"	kind:function	line:79
+input_data	../GAN_mnist.py	/^from tensorflow.examples.tutorials.mnist import input_data$/;"	kind:namespace	line:30
+input_size	../GAN_mnist.py	/^input_size = 784 # 28x28 MNIST images flattened$/;"	kind:variable	line:144
+learning_rate	../GAN_mnist.py	/^learning_rate = 0.002$/;"	kind:variable	line:223
+losses	../GAN_mnist.py	/^losses = []$/;"	kind:variable	line:240
+losses	../GAN_mnist.py	/^losses = np.array(losses)$/;"	kind:variable	line:294
+matplotlib	../GAN_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:26
+matplotlib	../GAN_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:289
+mnist	../GAN_mnist.py	/^mnist = input_data.read_data_sets('MNIST_data')$/;"	kind:variable	line:31
+model_inputs	../GAN_mnist.py	/^def model_inputs(real_dim, z_dim):$/;"	kind:function	line:41
+np	../GAN_mnist.py	/^import numpy as np$/;"	kind:namespace	line:24
+pkl	../GAN_mnist.py	/^import pickle as pkl$/;"	kind:namespace	line:23
+plt	../GAN_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:26
+plt	../GAN_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:289
+sample_z	../GAN_mnist.py	/^        sample_z = np.random.uniform(-1, 1, size=(16, z_size))$/;"	kind:variable	line:270
+sample_z	../GAN_mnist.py	/^    sample_z = np.random.uniform(-1, 1, size=(16, z_size))$/;"	kind:variable	line:351
+samples	../GAN_mnist.py	/^    samples = pkl.load(f)$/;"	kind:variable	line:319
+samples	../GAN_mnist.py	/^samples = []$/;"	kind:variable	line:239
+saver	../GAN_mnist.py	/^saver = tf.train.Saver(var_list = g_vars)$/;"	kind:variable	line:241
+saver	../GAN_mnist.py	/^saver = tf.train.Saver(var_list=g_vars)$/;"	kind:variable	line:348
+smooth	../GAN_mnist.py	/^smooth = 0.1$/;"	kind:variable	line:153
+t_vars	../GAN_mnist.py	/^t_vars = $/;"	kind:variable	line:226
+tf	../GAN_mnist.py	/^import tensorflow as tf$/;"	kind:namespace	line:25
+train_loss_d	../GAN_mnist.py	/^        train_loss_d = sess.run(d_loss, {input_z: batch_z, input_real: batch_images})$/;"	kind:variable	line:260
+train_loss_g	../GAN_mnist.py	/^        train_loss_g = g_loss.eval({input_z: batch_z})$/;"	kind:variable	line:261
+view_samples	../GAN_mnist.py	/^def view_samples(epoch, samples):$/;"	kind:function	line:306
+z_size	../GAN_mnist.py	/^z_size = 100$/;"	kind:variable	line:146
