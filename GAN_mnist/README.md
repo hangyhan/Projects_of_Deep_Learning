@@ -4,7 +4,7 @@
 
 **The network architecture of this GAN is quite simple:**
 
-- The generator consists of 2 fully-connected layers with Leaky ReLU and tanh as activation functions.
+- The generator consists of 2 fully-connected layers with Leaky ReLU and tanh as activation functions.
 - The discriminator also consists of 2 fully-connected layers while the activation functions are Leaky ReLU and sigmoid.
 
 **Training details:**
