@@ -1,3 +1,8 @@
-# Udacity-DLND
+# Projects of Deep Learning
 
-This repo contains code of mini-projects and course-projects of the Udacity Deep Learning Nano Degree.
+This repo contains several interesting projects. 
+
+Using very elementary deep learning models, we can get satisfying results on these tasks.
+
+Simple implementations for these models are included in this repo.
+
